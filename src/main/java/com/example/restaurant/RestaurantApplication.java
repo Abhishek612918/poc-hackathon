@@ -31,10 +31,16 @@ public class RestaurantApplication {
 		menu2.put("Dal Makhani", 200);
 		menu2.put("Paneer Makhani", 300);
 		menu2.put("Roti", 20);
+
+		HashMap<String, Integer> menu3 = new HashMap<String, Integer>();
+		menu3.put("Cold Coffee", 150);
+		menu3.put("Hot Coffee", 100);
+		menu3.put("Sandwitch", 100);
 			
 		Map<String, HashMap<String, Integer>> restaurant = new HashMap<String, HashMap<String, Integer>>();
 		restaurant.put("MCDonalds", menu1);
 		restaurant.put("IndianVeggieDelight", menu2);
+		restaurant.put("JohnsCafe", menu3);
 		
 		return restaurant;
 		
