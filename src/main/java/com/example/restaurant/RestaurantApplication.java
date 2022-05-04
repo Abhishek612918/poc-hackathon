@@ -36,11 +36,17 @@ public class RestaurantApplication {
 		menu3.put("Cold Coffee", 150);
 		menu3.put("Hot Coffee", 100);
 		menu3.put("Sandwitch", 100);
+
+		HashMap<String, Integer> menu4 = new HashMap<String, Integer>();
+		menu4.put("Pizza", 300);
+		menu4.put("Garlic Breads", 200);
+		
 			
 		Map<String, HashMap<String, Integer>> restaurant = new HashMap<String, HashMap<String, Integer>>();
 		restaurant.put("MCDonalds", menu1);
 		restaurant.put("IndianVeggieDelight", menu2);
 		restaurant.put("JohnsCafe", menu3);
+		restaurant.put("Dominos", menu4);
 		
 		return restaurant;
 		
