@@ -7,7 +7,7 @@ COPY pom.xml .
 COPY src ./src
 
 # Build a release artifact
-RUN mvn package _DskipTest
+RUN mvn package -DskipTest
 
 # Use AdoptOpenJDK for the base image
 From adoptopenjdk/openjdk11:alpine-jre
