@@ -46,7 +46,7 @@ public class RestaurantApplication {
 		restaurant.put("MCDonalds", menu1);
 		restaurant.put("IndianVeggieDelight", menu2);
 		restaurant.put("JohnsCafe", menu3);
-		restaurant.put("Dominos", menu4);
+		restaurant.put("KFC", menu4);
 		
 		return restaurant;
 		
